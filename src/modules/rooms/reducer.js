@@ -12,7 +12,7 @@ const initialState: State = Map({
 export (state = initialState, action: any): State => {
   switch (action.type) {
     case actionTypes.REFRESH:
-       state.update('items', payload);
+       state.set('items', payload);
     default:
       return state;
   } 
