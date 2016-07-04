@@ -6,7 +6,11 @@
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
-    "react": "15.1.0",
-    "react-native": "0.28.0"
+    "immutable": "^3.8.1",
+    "react": "facebook/react",
+    "react-native": "facebook/react-native",
+    "react-native-ibeacon": "^0.6.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
   }
 }

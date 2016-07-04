@@ -1,18 +1,10 @@
 import React, { Component } from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-  ScrollView,
-  TouchableOpacity,
-  Dimensions,
-  RefreshControl,
-  InteractionManager
-} from 'react-native';
+import { StyleSheet, Text, View, ScrollView, TouchableOpacity, Dimensions, RefreshControl, InteractionManager } from 'react-native';
+import { Beacons } from 'react-native-ibeacon';
 
 const { width: deviceWidth, height: deviceHeight } = Dimensions.get('window');
 
-class Dashboard extends Component {
+class RoomView extends Component {
 
   state = {
     refreshing: false,
@@ -182,4 +174,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Dashboard
+export default RoomView

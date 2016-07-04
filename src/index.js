@@ -1,11 +1,12 @@
 import React from 'react';
-
-import Dashboard from './components/Dashboard';
+import RoomView from './modules/rooms';
 
 class App extends React.Component {
+
 	render() {
-		return <Dashboard />
+		return <RoomView />
 	}
+
 }
 
 export default App;
